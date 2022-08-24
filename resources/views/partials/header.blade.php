@@ -1,36 +1,64 @@
-<div class="container">
-    <!-- Logo container -->
-    <div>
-        <img src="../images/dc-logo.png" alt="dc comics logo">
+<section>
+
+    <div class="top-header-text">
+        <span>dc power visa</span>
+        <span>additional dc sites</span>
     </div>
 
-    <!-- Header navigation area -->
-    <nav>
-        <ul>
-            <!-- Create a link for every object in the linksArray - different urls and texts -->
-            <li>
-                <!-- If the item is active - add class 'active' to apply the css styles (li and a tags) -->
-                <a> link </a>
-            </li>
+    <div class="container">
+        <!-- Logo container -->
+        <div class="logo">
+            <img src="../images/dc-logo.png" alt="dc comics logo">
+        </div>
+    
+        <!-- Header navigation area -->
+        <div class="links">
+            <nav>
+                <ul>
+                    <!-- Create a link for every object in the linksArray - different urls and texts -->
+                    <li>
+                        <a> characters </a>
+                    </li>
+        
+                    <li>
+                        <a class="active"> comics </a>
+                    </li>
+        
+                    <li>
+                        <a> movies </a>
+                    </li>
+        
+                    <li>
+                        <a> tv </a>
+                    </li>
 
-            <li>
-                <!-- If the item is active - add class 'active' to apply the css styles (li and a tags) -->
-                <a> link </a>
-            </li>
+                    <li>
+                        <a> games </a>
+                    </li>
+        
+                    <li>
+                        <a> collectibles </a>
+                    </li>
 
-            <li>
-                <!-- If the item is active - add class 'active' to apply the css styles (li and a tags) -->
-                <a> link </a>
-            </li>
+                    <li>
+                        <a> videos </a>
+                    </li>
 
-            <li>
-                <!-- If the item is active - add class 'active' to apply the css styles (li and a tags) -->
-                <a> link </a>
-            </li>
-            
-        </ul>
-    </nav>
-</div>
-
-<div class="banner">
-</div>
+                    <li>
+                        <a> fans </a>
+                    </li>
+        
+                    <li>
+                        <a> news </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    
+        <div class="input">
+            <input type="search" placeholder="search">
+        </div>
+    </div>
+    
+    <div class="banner"></div>
+</section>

@@ -31,26 +31,56 @@ header {
   background-color: white;
 }
 
+section {
+  background-color: #0082f9;
+}
+section .top-header-text {
+  font-size: 12px;
+  padding: 5px 0;
+  color: white;
+  text-transform: uppercase;
+  width: 83%;
+  text-align: end;
+}
+section .top-header-text span {
+  margin-right: 40px;
+}
+
 .container {
   height: 140px;
+  width: 100%;
   line-height: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.container div {
+  width: 14.2857142857%;
+}
+.container .links {
+  width: 45%;
 }
 .container ul {
   display: flex;
 }
 .container ul li {
-  line-height: 135px;
   margin: 0 10px;
 }
 .container ul li a {
-  color: blue;
+  cursor: pointer;
+  color: #797979;
   font-weight: 700;
+  text-transform: uppercase;
+}
+.container ul li a.active {
+  color: #0082f9;
+  border-bottom: 5px solid #0082f9;
+  padding-bottom: 56px;
 }
 
 .banner {
-  height: 410px;
-  background-image: url("../../../public/images/jumbotron.jpg");
+  height: 400px;
+  background-image: url("../images/jumbotron.jpg");
+  background-size: cover;
 }
