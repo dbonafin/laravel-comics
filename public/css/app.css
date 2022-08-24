@@ -1,4 +1,56 @@
-body {
-  background-color: lightblue;
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+img {
+  width: 100% ©;
+  display: block;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: white;
+}
+
+.container {
+  height: 140px;
+  line-height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container ul {
+  display: flex;
+}
+.container ul li {
+  line-height: 135px;
+  margin: 0 10px;
+}
+.container ul li a {
+  color: blue;
+  font-weight: 700;
+}
+
+.banner {
+  height: 410px;
+  background-image: url("../../../public/images/jumbotron.jpg");
+}

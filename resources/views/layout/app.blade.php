@@ -11,7 +11,7 @@
 <body>
 
     <header>
-        <h3>Header here</h3>
+        @include('partials.header')
     </header>
 
     <main>
