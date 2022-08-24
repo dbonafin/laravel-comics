@@ -25,11 +25,11 @@
                     </li>
         
                     <li>
-                        <a> movies </a>
+                        <a href="{{ route('movies')}}"> movies </a>
                     </li>
         
                     <li>
-                        <a> tv </a>
+                        <a href="{{ route('tv')}}"> tv </a>
                     </li>
 
                     <li>

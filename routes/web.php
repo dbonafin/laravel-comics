@@ -26,3 +26,11 @@ Route::get('/comics', function () {
 
     return view('comics', $data);
 })->name('comics');
+
+Route::get('/movies', function () {
+    return view('movies');
+})->name('movies');
+
+Route::get('/tv', function () {
+    return view('tv');
+})->name('tv');

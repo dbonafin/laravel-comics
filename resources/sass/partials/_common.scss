@@ -18,6 +18,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+main {        
+    background-color: #303030;
+    color: $secondary-color;
+}
+
 .container {
     width: 70%;
     margin: 0 auto;

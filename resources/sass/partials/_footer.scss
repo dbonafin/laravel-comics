@@ -25,6 +25,7 @@
         height: 400px;
         background-image: url('../images/footer-bg.jpg');
         background-size: cover;
+        overflow: hidden;
         h3 {
             color: $secondary-color;
             margin: 10px 0;
