@@ -1,13 +1,13 @@
 header {
-    background-color: white;
+    background-color: $secondary-color;
 }
 
 section {
-    background-color: #0082f9;
+    background-color: $primary-color;
     .top-header-text {
         font-size: 12px;
         padding: 5px 0;
-        color: white;
+        color: $secondary-color;
         text-transform: uppercase;
         width: 83%;
         text-align: end;
@@ -17,14 +17,14 @@ section {
     }
 }
 
-.container {
+header .container {
     height: 140px;
     width: 100%;
     line-height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: $secondary-color;
     div {
         width: calc(100% / 7);
     }
@@ -37,12 +37,12 @@ section {
             margin: 0 10px;
             a {
                 cursor: pointer;
-                color: #797979;  
+                color: $tertiary-color;  
                 font-weight: 700;
                 text-transform: uppercase;
                 &.active {
-                    color: #0082f9;
-                    border-bottom: 5px solid #0082f9;
+                    color: $primary-color;
+                    border-bottom: 5px solid $primary-color;
                     padding-bottom: 56px;
                 }
             }

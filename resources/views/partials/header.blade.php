@@ -17,11 +17,11 @@
                 <ul>
                     <!-- Create a link for every object in the linksArray - different urls and texts -->
                     <li>
-                        <a> characters </a>
+                        <a href="{{ route('home')}}"> home </a>
                     </li>
         
                     <li>
-                        <a class="active"> comics </a>
+                        <a class="active" href="{{ route('comics')}}"> comics </a>
                     </li>
         
                     <li>

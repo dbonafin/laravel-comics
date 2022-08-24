@@ -46,7 +46,7 @@ section .top-header-text span {
   margin-right: 40px;
 }
 
-.container {
+header .container {
   height: 140px;
   width: 100%;
   line-height: 100%;
@@ -55,25 +55,25 @@ section .top-header-text span {
   justify-content: center;
   background-color: white;
 }
-.container div {
+header .container div {
   width: 14.2857142857%;
 }
-.container .links {
+header .container .links {
   width: 45%;
 }
-.container ul {
+header .container ul {
   display: flex;
 }
-.container ul li {
+header .container ul li {
   margin: 0 10px;
 }
-.container ul li a {
+header .container ul li a {
   cursor: pointer;
   color: #797979;
   font-weight: 700;
   text-transform: uppercase;
 }
-.container ul li a.active {
+header .container ul li a.active {
   color: #0082f9;
   border-bottom: 5px solid #0082f9;
   padding-bottom: 56px;
@@ -83,4 +83,60 @@ section .top-header-text span {
   height: 400px;
   background-image: url("../images/jumbotron.jpg");
   background-size: cover;
+}
+
+.cards-section {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  background-color: #1c1c1c;
+  color: white;
+}
+.cards-section .container {
+  display: flex;
+  flex-direction: column;
+}
+.cards-section .container .btn {
+  cursor: pointer;
+  background-color: #0082f9;
+}
+.cards-section .container .btn.load-btn {
+  margin-top: 50px;
+  align-self: center;
+  padding: 10px 40px;
+}
+.cards-section .container .btn.current-btn {
+  padding: 15px 30px;
+  align-self: flex-start;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 330px;
+  top: -30px;
+}
+.cards-section .container .cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cards-section .container .cards-container .single-card {
+  margin: 30px 20px;
+  width: calc(16.6666666667% - 40px);
+  height: 220px;
+}
+.cards-section .container .cards-container .single-card h4 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+.cards-section .container .cards-container .single-card img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  cursor: pointer;
 }

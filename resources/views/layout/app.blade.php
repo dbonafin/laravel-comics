@@ -15,7 +15,7 @@
     </header>
 
     <main>
-            @yield('home')
+            @yield('main-section')
     </main>
 
    <footer>
