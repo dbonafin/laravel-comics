@@ -140,3 +140,29 @@ header .container ul li a.active {
      object-position: top;
   cursor: pointer;
 }
+
+.shop-section {
+  background-color: #0082f9;
+  color: white;
+  height: 150px;
+}
+.shop-section img {
+  width: 60px;
+  height: 60px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.shop-section ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+}
+.shop-section ul li {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.shop-section ul li span {
+  margin: 0 7px;
+}

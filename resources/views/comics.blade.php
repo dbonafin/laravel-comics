@@ -23,4 +23,43 @@
 
         </div>
     </section>
+
+    <div class="shop-section">
+        <div class="container">
+
+            <!-- Shop section with all the shop-options elements -->
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="../images/buy-comics-digital-comics.png" alt="digital comics">
+                    </a>
+                    <span>DIGITAL COMICS</span>
+                </li>
+                 <li>
+                    <a href="#">
+                        <img src="../images/buy-comics-merchandise.png" alt="merchandise">
+                    </a>
+                    <span>DC MERCHANDISE</span>
+                </li>
+                 <li>
+                    <a href="#">
+                        <img src="../images/buy-comics-subscriptions.png" alt="subscriptions">
+                    </a>
+                    <span>SUBSCRIPTIONS</span>
+                </li>
+                 <li>
+                    <a href="#">
+                        <img src="../images/buy-comics-shop-locator.png" alt="shop locator">
+                    </a>
+                    <span>SHOP LOCATOR</span>
+                </li>
+                 <li>
+                    <a href="#">
+                        <img src="../images/buy-dc-power-visa.svg" alt="dc power visa">
+                    </a>
+                    <span>DC POWER VISA</span>
+                </li>
+            </ul>
+        </div>
+    </div>
 @endsection
