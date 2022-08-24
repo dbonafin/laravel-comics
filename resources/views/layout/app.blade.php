@@ -18,9 +18,9 @@
             @yield('main-section')
     </main>
 
-   <footer>
-        <h3>Footer here</h3>
-   </footer>
+    <footer>
+        @include('partials.footer')
+    </footer>
 
 </body>
 

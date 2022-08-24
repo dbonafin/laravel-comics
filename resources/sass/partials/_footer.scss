@@ -1,0 +1,78 @@
+.total-footer {
+    // Top part of the footer styles
+    .faq-cols {
+        display: flex;
+        align-self: center;
+        ul {
+            margin: 0 30px;
+            .sub-list {
+                margin: 0;
+            }
+            li {
+                margin: 6px;
+            }
+            a {
+                color: $tertiary-color;
+            }
+        }
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .top-footer {
+        display: flex;
+        height: 400px;
+        background-image: url('../images/footer-bg.jpg');
+        background-size: cover;
+        h3 {
+            color: $secondary-color;
+            margin: 10px 0;
+        }
+        .footer-logo {
+            width: 550px;
+            position: relative;
+            right: 0;
+            bottom: 50px;
+        }
+    }
+    // Bottom part of the footer styles
+    .bottom-footer {
+        position: relative;
+        background-color: #303030;
+        height: 140px;
+        .container {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            h3 {
+                color: $secondary-color;
+            }
+            .button-sign-up {
+                color: $secondary-color;
+                border: 2px solid $primary-color;
+                padding: 15px;
+                font-weight: 700;
+                cursor: pointer;
+                font-size: 20px;
+            }
+            .social-area {
+                display: flex;
+                align-items: center;
+            }
+            span {
+                color: $primary-color;
+                font-size: 20px;
+                font-weight: 700;
+                }
+            .social-list {
+                display: flex;
+                margin-left: 20px;
+                li {
+                    margin-left: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
