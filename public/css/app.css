@@ -79,23 +79,29 @@ header .container .input {
 }
 header .container .links {
   width: 45%;
+  display: flex;
+  align-self: self-end;
 }
 header .container ul {
   display: flex;
 }
 header .container ul li {
   margin: 0 10px;
+  padding-bottom: 56px;
+  border-bottom: 5px solid transparent;
+}
+header .container ul li.active {
+  color: #0082f9;
+  border-bottom: 5px solid #0082f9;
+}
+header .container ul li.active a {
+  color: #0082f9;
 }
 header .container ul li a {
   cursor: pointer;
   color: #797979;
   font-weight: 700;
   text-transform: uppercase;
-}
-header .container ul li a.active {
-  color: #0082f9;
-  border-bottom: 5px solid #0082f9;
-  padding-bottom: 56px;
 }
 
 .banner {

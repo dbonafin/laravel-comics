@@ -16,19 +16,19 @@
             <nav>
                 <ul>
                     <!-- Create a link for every object in the linksArray - different urls and texts -->
-                    <li>
+                    <li class="{{ Route::current()->getName() === 'home' ? 'active' : '' }}">
                         <a href="{{ route('home')}}"> home </a>
                     </li>
         
-                    <li>
-                        <a class="active" href="{{ route('comics')}}"> comics </a>
+                    <li class="{{ Route::current()->getName() === 'comics' ? 'active' : '' }}">
+                        <a href="{{ route('comics')}}"> comics </a>
                     </li>
         
-                    <li>
+                    <li class="{{ Route::current()->getName() === 'movies' ? 'active' : '' }}">
                         <a href="{{ route('movies')}}"> movies </a>
                     </li>
         
-                    <li>
+                    <li class="{{ Route::current()->getName() === 'tv' ? 'active' : '' }}">
                         <a href="{{ route('tv')}}"> tv </a>
                     </li>
 
