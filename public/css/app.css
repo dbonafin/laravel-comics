@@ -284,6 +284,9 @@ header .container ul li a.active {
 .main-bg-details .item-specs-wrapper .info-specs .specs-box .comic-specs {
   width: 60%;
 }
+.main-bg-details .shop-wrapper {
+  border-top: 1px solid #797979;
+}
 .main-bg-details .shop-section-single-item {
   background-color: #f6f6f6;
   color: #797979;
@@ -301,10 +304,12 @@ header .container ul li a.active {
   align-items: center;
 }
 .main-bg-details .shop-section-single-item ul li {
+  padding: 5px;
   width: 25%;
-  border: 1px solid #797979;
+  border-left: 1px solid #797979;
   border-right: none;
   display: flex;
+  justify-content: space-around;
   align-items: center;
   cursor: pointer;
 }
@@ -313,9 +318,30 @@ header .container ul li a.active {
 }
 .main-bg-details .shop-section-single-item ul li span {
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12px;
   padding: 4px;
   margin-right: 45px;
+  line-height: 50px;
+}
+.main-bg-details .shop-section-single-item ul li #digital {
+  width: 35px;
+  height: 35px;
+  background: url(../images/cta-icons.png) 0px 0;
+}
+.main-bg-details .shop-section-single-item ul li #shop {
+  width: 38px;
+  height: 37px;
+  background: url(../images/cta-icons.png) 38px 0;
+}
+.main-bg-details .shop-section-single-item ul li #locator {
+  width: 38px;
+  height: 37px;
+  background: url(../images/cta-icons.png) 74px 0;
+}
+.main-bg-details .shop-section-single-item ul li #subscriptions {
+  width: 38px;
+  height: 37px;
+  background: url(../images/cta-icons.png) 111px 0;
 }
 
 .total-footer .faq-cols {
