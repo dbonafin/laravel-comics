@@ -1,5 +1,9 @@
 @extends('layout.app')
 
+@section('title')
+    Comics
+@endsection
+
 @section('main-section')
     <section class="cards-section">
         <div class="container">
