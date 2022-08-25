@@ -16,8 +16,15 @@
                 @foreach ($comics as $item)
                     {{-- Single product --}}
                     <div class="product-card single-card">
-                        <img src="{{ $item['thumb'] }}" alt="{{ $item['title'] }}">
-                        <h3>{{ $item['title'] }}</h3>
+
+                        <a href="{{ route('single_product', [
+                            'id' => $item['id']
+                        ]) }}">
+
+                            <img src="{{ $item['thumb'] }}" alt="{{ $item['title'] }}">
+                            <h3>{{ $item['title'] }}</h3>
+                        </a>
+                     
                     </div>
                 @endforeach
             </div>

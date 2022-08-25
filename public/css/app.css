@@ -47,10 +47,10 @@ header {
   background-color: white;
 }
 
-section {
+header section {
   background-color: #0082f9;
 }
-section .top-header-text {
+header section .top-header-text {
   font-size: 12px;
   padding: 5px 0;
   color: white;
@@ -58,7 +58,7 @@ section .top-header-text {
   width: 84%;
   text-align: end;
 }
-section .top-header-text span {
+header section .top-header-text span {
   margin-left: 40px;
 }
 
@@ -99,7 +99,7 @@ header .container ul li a.active {
 }
 
 .banner {
-  height: 400px;
+  height: 300px;
   background-image: url("../images/jumbotron.jpg");
   background-size: cover;
 }
@@ -120,18 +120,19 @@ header .container ul li a.active {
   background-color: #0082f9;
 }
 .cards-section .container .btn.load-btn {
-  margin-top: 50px;
+  margin-top: 60px;
   align-self: center;
   padding: 10px 40px;
 }
 .cards-section .container .btn.current-btn {
-  padding: 15px 30px;
+  cursor: auto;
+  padding: 10px 20px;
   align-self: flex-start;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 700;
   position: absolute;
-  left: 330px;
-  top: -30px;
+  left: 300px;
+  top: -24px;
 }
 .cards-section .container .cards-container {
   display: flex;
@@ -187,6 +188,7 @@ header .container ul li a.active {
 }
 
 .main-bg-details {
+  background-color: white;
   color: #797979;
 }
 .main-bg-details .top-details {
@@ -203,14 +205,41 @@ header .container ul li a.active {
 }
 .main-bg-details .top-details .details-thumb img {
   width: 150px;
-  height: 250px;
+  height: 220px;
 }
-.main-bg-details .comic-details {
+.main-bg-details .comic-details-wrapper {
+  width: 58%;
+  margin: 0 auto;
+}
+.main-bg-details .comic-details-wrapper .comic-details-top {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
   height: 400px;
   background-color: white;
 }
-.main-bg-details h1 {
+.main-bg-details .comic-details-wrapper .comic-details-top .details-info {
+  width: 60%;
+}
+.main-bg-details .comic-details-wrapper .comic-details-top .details-info .price-and-available {
+  padding: 10px;
+  margin: 20px 0;
+  color: white;
+  background-color: #55ba59;
+}
+.main-bg-details .comic-details-wrapper .comic-details-top .adv-thumb h4 {
+  text-transform: uppercase;
+  text-align: end;
+  font-size: 12px;
+  color: #797979;
+}
+.main-bg-details .comic-details-wrapper .comic-details-top img {
+  width: 200px;
+}
+.main-bg-details .comic-details-wrapper h1 {
+  font-size: 28px;
   color: #003f5e;
+  text-transform: uppercase;
 }
 
 .total-footer .faq-cols {

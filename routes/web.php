@@ -27,9 +27,23 @@ Route::get('/comics', function () {
     return view('comics', $data);
 })->name('comics');
 
-Route::get('/comics/single-product', function () {
-    return view('single-product');
-})->name('single-product');
+Route::get('single-product/{id}', function ($id) {
+    //Get the comics array and build the active item array
+    $comics = config('comics');
+    $active_item = [];
+
+    foreach($comics as $item) {
+        if($item['id'] == $id) {
+            $active_item  = $item;
+        }
+    }
+
+    $data = [
+        'active_item' =>  $active_item
+    ];
+
+    return view('single-product', $data);
+})->name('single_product'); 
 
 Route::get('/movies', function () {
     return view('movies');
