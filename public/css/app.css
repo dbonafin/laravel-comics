@@ -197,6 +197,26 @@ header .container ul li a.active {
   width: 100%;
   position: relative;
 }
+.main-bg-details .top-details .comic-category {
+  color: white;
+  font-size: 10px;
+  background-color: #14b0e1;
+  text-transform: uppercase;
+  padding: 3px 6px;
+  position: absolute;
+  left: 301px;
+  bottom: 223px;
+}
+.main-bg-details .top-details .comic-gallery {
+  color: white;
+  font-size: 11px;
+  background-color: #14b0e1;
+  text-transform: uppercase;
+  padding: 5px 38px;
+  position: absolute;
+  left: 301px;
+  bottom: 21px;
+}
 .main-bg-details .top-details .details-thumb {
   border: 1px solid white;
   position: absolute;
@@ -230,6 +250,9 @@ header .container ul li a.active {
   margin: 20px 0;
   color: white;
   background-color: #55ba59;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .main-bg-details .item-details-wrapper .item-details-top .adv-thumb h4 {
   text-transform: uppercase;

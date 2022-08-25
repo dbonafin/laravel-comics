@@ -12,6 +12,14 @@
             <div class="details-thumb">
                 <img src="{{ $active_item['thumb'] }}" alt="{{ $active_item['title'] }}">
             </div>
+
+            <div class="comic-category">
+                {{ $active_item['type'] }}
+            </div>
+
+            <div class="comic-gallery">
+                view gallery
+            </div>
         </div>
 
         {{-- General infos about the active comic book --}}
@@ -22,7 +30,13 @@
                     <h1>{{ $active_item['title'] }}</h1>
 
                     <div class="price-and-available">
-                        <h4>available</h4>
+                        <div>
+                            U.S. price: {{ $active_item['price'] }}
+                        </div>
+
+                        <div>
+                            Check availability 🔽
+                        </div>
                     </div>
 
                     <p>{{ $active_item['description'] }}</p>

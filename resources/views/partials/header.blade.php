@@ -1,8 +1,8 @@
 <section>
 
     <div class="top-header-text">
-        <span>dc power visa</span>
-        <span>additional dc sites</span>
+        <span>dc power visa &#174;</span>
+        <span>additional dc sites 🔽</span>
     </div>
 
     <div class="container">
