@@ -101,14 +101,18 @@
             }
         }
     }
-    .comic-details-wrapper {
-        width: 58%;
+    .item-details-wrapper {
+        width: 60%;
         margin: 0 auto;
-        .comic-details-top {
-            padding-top: 50px;
+        h1 {
+            font-size: 28px;
+            color: #003f5e;
+            text-transform: uppercase;
+        }
+        .item-details-top {
+            padding: 50px 0;
             display: flex;
             justify-content: space-between;
-            height: 400px;
             background-color: $secondary-color;
             .details-info {
                 width: 60%;
@@ -126,13 +130,52 @@
                 color: $tertiary-color;
             }
             img {
-                width: 200px;
+                width: 250px;
             }
         }
-        h1 {
-            font-size: 28px;
+    }
+    .item-specs-wrapper {
+        background-color: #f6f6f6;
+        padding: 40px 0;
+        h4 {
+            font-size: 22px;
             color: #003f5e;
-            text-transform: uppercase;
+            border-bottom: 1px solid $tertiary-color;
+            padding-bottom: 30px;
+        }
+        .info-specs {
+            width: 60%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            .details-paragraph {
+                display: flex;
+                justify-content: space-between;
+                margin: 5px 0;
+                padding: 5px;
+                border-bottom: 1px solid $tertiary-color;
+                .author-names {
+                    width: 40%;
+                    text-align: end;
+                    a {
+                        color: #14b0e1;
+                    }
+                }
+                .series-detail {
+                    color: #14b0e1;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                }
+            }
+            .talent-box {
+                width: 48%;
+            }
+            .specs-box {
+                width: 48%;
+                .comic-specs {
+                    width: 60%;
+                }
+            }
         }
     }
 }

@@ -1,20 +1,23 @@
 @extends('layout.app')
 
 @section('title')
-    Details
+    {{ $active_item['title'] }}
 @endsection
 
 @section('main-section')
     <section>
+
+        {{-- Floating thumb of the active comic book --}}
         <div class="top-details">
             <div class="details-thumb">
                 <img src="{{ $active_item['thumb'] }}" alt="{{ $active_item['title'] }}">
             </div>
         </div>
 
-        <div class="comic-details-wrapper">
-
-            <div class="comic-details-top">
+        {{-- General infos about the active comic book --}}
+        <div class="item-details-wrapper">
+            {{-- Top section of the single comic details: overview, availability.. --}}
+            <div class="item-details-top">
                 <div class="details-info">
                     <h1>{{ $active_item['title'] }}</h1>
 
@@ -28,6 +31,65 @@
                 <div class="adv-thumb">
                     <h4>advertisement</h4>
                     <img src="../images/adv.jpg" alt="advertising dc power visa">
+                </div>
+            </div>
+        </div>
+
+        {{-- Top section of the single comic details: specs, written by.. --}}
+        <div class="item-specs-wrapper">
+
+            <div class="info-specs">
+                <div class="talent-box">
+                    <h4>Talent</h4>
+
+                    <div class="details-paragraph">
+                        Art by: 
+                       <div class="author-names">
+                            @foreach ($active_item['artists'] as $writer) 
+                                <a href="#">
+                                    {{ $writer }}@if(!$loop->last), @endif
+                                </a>
+                            @endforeach
+                       </div>
+                    </div>
+
+                    <div class="details-paragraph">
+                        Written by: 
+                        <div class="author-names">
+                            @foreach ($active_item['artists'] as $writer) 
+                                <a href="#">
+                                    {{ $writer }}@if(!$loop->last), @endif
+                                </a>
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+
+                <div class="specs-box">
+                    <h4>Specs</h4>
+
+                    <div class="details-paragraph">
+                        Series
+                        <div class="comic-specs series-detail">
+                            {{ $active_item['series'] }}
+                        </div>
+                    </div>
+
+                    <div class="details-paragraph">
+                        U.S. price:
+                        <div class="comic-specs">
+                            {{ $active_item['price'] }}
+                        </div>
+                    </div>
+
+                    <div class="details-paragraph">
+                        On Sale Date:
+                        <div class="comic-specs">
+                            {{ $active_item['sale_date'] }}
+                        </div>
+                    </div>
+                 
+
                 </div>
             </div>
         </div>

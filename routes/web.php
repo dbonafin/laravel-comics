@@ -27,7 +27,7 @@ Route::get('/comics', function () {
     return view('comics', $data);
 })->name('comics');
 
-Route::get('single-product/{id}', function ($id) {
+Route::get('/single-product/{id}', function ($id) {
     //Get the comics array and build the active item array
     $comics = config('comics');
     $active_item = [];

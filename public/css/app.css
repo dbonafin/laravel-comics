@@ -207,39 +207,82 @@ header .container ul li a.active {
   width: 150px;
   height: 220px;
 }
-.main-bg-details .comic-details-wrapper {
-  width: 58%;
+.main-bg-details .item-details-wrapper {
+  width: 60%;
   margin: 0 auto;
 }
-.main-bg-details .comic-details-wrapper .comic-details-top {
-  padding-top: 50px;
+.main-bg-details .item-details-wrapper h1 {
+  font-size: 28px;
+  color: #003f5e;
+  text-transform: uppercase;
+}
+.main-bg-details .item-details-wrapper .item-details-top {
+  padding: 50px 0;
   display: flex;
   justify-content: space-between;
-  height: 400px;
   background-color: white;
 }
-.main-bg-details .comic-details-wrapper .comic-details-top .details-info {
+.main-bg-details .item-details-wrapper .item-details-top .details-info {
   width: 60%;
 }
-.main-bg-details .comic-details-wrapper .comic-details-top .details-info .price-and-available {
+.main-bg-details .item-details-wrapper .item-details-top .details-info .price-and-available {
   padding: 10px;
   margin: 20px 0;
   color: white;
   background-color: #55ba59;
 }
-.main-bg-details .comic-details-wrapper .comic-details-top .adv-thumb h4 {
+.main-bg-details .item-details-wrapper .item-details-top .adv-thumb h4 {
   text-transform: uppercase;
   text-align: end;
   font-size: 12px;
   color: #797979;
 }
-.main-bg-details .comic-details-wrapper .comic-details-top img {
-  width: 200px;
+.main-bg-details .item-details-wrapper .item-details-top img {
+  width: 250px;
 }
-.main-bg-details .comic-details-wrapper h1 {
-  font-size: 28px;
+.main-bg-details .item-specs-wrapper {
+  background-color: #f6f6f6;
+  padding: 40px 0;
+}
+.main-bg-details .item-specs-wrapper h4 {
+  font-size: 22px;
   color: #003f5e;
+  border-bottom: 1px solid #797979;
+  padding-bottom: 30px;
+}
+.main-bg-details .item-specs-wrapper .info-specs {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.main-bg-details .item-specs-wrapper .info-specs .details-paragraph {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 5px;
+  border-bottom: 1px solid #797979;
+}
+.main-bg-details .item-specs-wrapper .info-specs .details-paragraph .author-names {
+  width: 40%;
+  text-align: end;
+}
+.main-bg-details .item-specs-wrapper .info-specs .details-paragraph .author-names a {
+  color: #14b0e1;
+}
+.main-bg-details .item-specs-wrapper .info-specs .details-paragraph .series-detail {
+  color: #14b0e1;
   text-transform: uppercase;
+  cursor: pointer;
+}
+.main-bg-details .item-specs-wrapper .info-specs .talent-box {
+  width: 48%;
+}
+.main-bg-details .item-specs-wrapper .info-specs .specs-box {
+  width: 48%;
+}
+.main-bg-details .item-specs-wrapper .info-specs .specs-box .comic-specs {
+  width: 60%;
 }
 
 .total-footer .faq-cols {
