@@ -27,6 +27,10 @@ Route::get('/comics', function () {
     return view('comics', $data);
 })->name('comics');
 
+Route::get('/comics/single-product', function () {
+    return view('single-product');
+})->name('single-product');
+
 Route::get('/movies', function () {
     return view('movies');
 })->name('movies');

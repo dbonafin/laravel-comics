@@ -1,4 +1,4 @@
-// Comic cards wrapper
+// Comic cards section
 .cards-section {
     position: relative;
     padding-top: 30px;
@@ -26,13 +26,15 @@
                 top: -30px;
             }
         }
+        // Comic cards wrapper
         .cards-container {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
+            // Single comic details
             .single-card {
-                margin: 40px 30px;
-                width: calc((100% / 6) - 60px);
+                margin: 40px 20px;
+                width: calc((100% / 6) - 40px);
                 height: 150px;
                 h3 {
                     text-transform: uppercase;
@@ -75,5 +77,33 @@
                 margin: 0 7px;
             }
         }
+    }
+}
+
+// Comics details section
+.main-bg-details {
+    color: $tertiary-color;
+    .top-details {
+        background-color: $primary-color;
+        height: 70px;
+        width: 100%;
+        position: relative;
+        .details-thumb {
+            border: 1px solid $secondary-color;
+            position: absolute;
+            left: 300px;
+            bottom: 20px;
+            img {
+                width: 150px;
+                height: 250px;
+            }
+        }
+    }
+    .comic-details {
+        height: 400px;
+        background-color: $secondary-color;
+    }
+    h1 {
+       color: #003f5e;
     }
 }

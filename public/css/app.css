@@ -139,8 +139,8 @@ header .container ul li a.active {
   justify-content: space-around;
 }
 .cards-section .container .cards-container .single-card {
-  margin: 40px 30px;
-  width: calc(16.6666666667% - 60px);
+  margin: 40px 20px;
+  width: calc(16.6666666667% - 40px);
   height: 150px;
 }
 .cards-section .container .cards-container .single-card h3 {
@@ -184,6 +184,33 @@ header .container ul li a.active {
 }
 .shop-section ul li span {
   margin: 0 7px;
+}
+
+.main-bg-details {
+  color: #797979;
+}
+.main-bg-details .top-details {
+  background-color: #0082f9;
+  height: 70px;
+  width: 100%;
+  position: relative;
+}
+.main-bg-details .top-details .details-thumb {
+  border: 1px solid white;
+  position: absolute;
+  left: 300px;
+  bottom: 20px;
+}
+.main-bg-details .top-details .details-thumb img {
+  width: 150px;
+  height: 250px;
+}
+.main-bg-details .comic-details {
+  height: 400px;
+  background-color: white;
+}
+.main-bg-details h1 {
+  color: #003f5e;
 }
 
 .total-footer .faq-cols {
