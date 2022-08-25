@@ -9,10 +9,10 @@ section {
         padding: 5px 0;
         color: $secondary-color;
         text-transform: uppercase;
-        width: 83%;
+        width: 84%;
         text-align: end;
         span {
-            margin-right: 40px;
+            margin-left: 40px;
         }
     }
 }
@@ -27,6 +27,9 @@ header .container {
     background-color: $secondary-color;
     div {
         width: calc(100% / 7);
+    }
+    .input {
+        text-align: center;
     }
     .links {
         width: 45%;

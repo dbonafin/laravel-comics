@@ -18,6 +18,17 @@ main {
   background-color: #303030;
   color: white;
 }
+main.main-bg {
+  text-align: center;
+  padding: 40px;
+}
+main .default-text {
+  width: 50%;
+  margin: 0 auto;
+}
+main .default-text h4 {
+  margin: 20px 0;
+}
 
 .container {
   width: 70%;
@@ -44,11 +55,11 @@ section .top-header-text {
   padding: 5px 0;
   color: white;
   text-transform: uppercase;
-  width: 83%;
+  width: 84%;
   text-align: end;
 }
 section .top-header-text span {
-  margin-right: 40px;
+  margin-left: 40px;
 }
 
 header .container {
@@ -62,6 +73,9 @@ header .container {
 }
 header .container div {
   width: 14.2857142857%;
+}
+header .container .input {
+  text-align: center;
 }
 header .container .links {
   width: 45%;
@@ -88,10 +102,6 @@ header .container ul li a.active {
   height: 400px;
   background-image: url("../images/jumbotron.jpg");
   background-size: cover;
-}
-
-main {
-  padding: 0;
 }
 
 .cards-section {
@@ -129,16 +139,16 @@ main {
   justify-content: space-around;
 }
 .cards-section .container .cards-container .single-card {
-  margin: 30px 20px;
-  width: calc(16.6666666667% - 40px);
-  height: 220px;
+  margin: 40px 30px;
+  width: calc(16.6666666667% - 60px);
+  height: 150px;
 }
-.cards-section .container .cards-container .single-card h4 {
+.cards-section .container .cards-container .single-card h3 {
   text-transform: uppercase;
   color: white;
-  font-size: 14px;
+  font-size: 13px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 .cards-section .container .cards-container .single-card img {
   width: 100%;

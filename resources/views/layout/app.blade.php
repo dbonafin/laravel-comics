@@ -15,7 +15,7 @@
         @include('partials.header')
     </header>
 
-    <main>
+    <main class="@yield('main-class')">
         @yield('main-section')
     </main>
 
