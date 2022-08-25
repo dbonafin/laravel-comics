@@ -284,6 +284,39 @@ header .container ul li a.active {
 .main-bg-details .item-specs-wrapper .info-specs .specs-box .comic-specs {
   width: 60%;
 }
+.main-bg-details .shop-section-single-item {
+  background-color: #f6f6f6;
+  color: #797979;
+}
+.main-bg-details .shop-section-single-item img {
+  color: red;
+  width: 60px;
+  height: 60px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.main-bg-details .shop-section-single-item ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main-bg-details .shop-section-single-item ul li {
+  width: 25%;
+  border: 1px solid #797979;
+  border-right: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.main-bg-details .shop-section-single-item ul li.last-item {
+  border-right: 1px solid #797979;
+}
+.main-bg-details .shop-section-single-item ul li span {
+  font-weight: 700;
+  font-size: 14px;
+  padding: 4px;
+  margin-right: 45px;
+}
 
 .total-footer .faq-cols {
   display: flex;

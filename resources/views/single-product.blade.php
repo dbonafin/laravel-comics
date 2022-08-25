@@ -93,6 +93,45 @@
                 </div>
             </div>
         </div>
+
+        {{-- Shop section of the single comic book page --}}
+        <div class="shop-section-single-item">
+            <div class="container">
+    
+                <!-- Shop section with all the shop-options elements -->
+                <ul>
+                    <li>
+                        <span>DIGITAL COMICS</span>
+                        <a href="#">
+                            <img src="../images/buy-comics-digital-comics.png" alt="digital comics">
+                        </a>
+                        
+                    </li>
+
+                    <li>
+                        <span>SHOP DC</span>
+                        <a href="#">
+                            <img src="../images/buy-comics-merchandise.png" alt="merchandise">
+                        </a>
+                    </li>
+
+                    <li>
+                        <span>COMIC SHOP LOCATOR</span>
+                        <a href="#">
+                            <img src="../images/buy-comics-shop-locator.png" alt="shop locator">
+                        </a>
+                    </li>
+
+                    <li class="last-item">
+                        <span>SUBSCRIPTIONS</span>
+                        <a href="#">
+                            <img src="../images/buy-comics-subscriptions.png" alt="subscriptions">
+                        </a>
+                    </li>
+                     
+                </ul>
+            </div>
+        </div>
     </section>
 @endsection
 

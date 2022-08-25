@@ -178,4 +178,36 @@
             }
         }
     }
+    .shop-section-single-item {
+        background-color: #f6f6f6;
+        color: $tertiary-color;
+        img {
+            color: red;
+            width: 60px;
+            height: 60px;
+            object-fit: contain;
+        }
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            li {
+                width: 25%;
+                border: 1px solid $tertiary-color;
+                border-right: none;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                &.last-item {
+                    border-right: 1px solid $tertiary-color;
+                }
+                span {
+                    font-weight: 700;
+                    font-size: 14px;
+                    padding: 4px;
+                    margin-right: 45px;
+                }
+            }
+        }
+    }
 }
